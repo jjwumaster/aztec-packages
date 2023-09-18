@@ -13,6 +13,7 @@ namespace proof_system::honk::power_polynomial {
  * @param vector_size
  * @return barretenberg::polynomial
  */
+// TODO: get rid of this?
 template <typename Fr> barretenberg::Polynomial<Fr> generate_vector(Fr zeta, size_t vector_size)
 {
     // We know the size from the start, so we can allocate exactly the right amount of memory

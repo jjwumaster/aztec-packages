@@ -22,6 +22,12 @@ template <class Flavor> class ProtoGalaxyProver_ {
     void prepare_for_folding();
 
     ProverFoldingResult<Flavor> fold_instances();
+
+    void compute_perturbator();
+
+    void tree_trick();
+
+    // rework Instances
 };
 
 extern template class ProtoGalaxyProver_<honk::flavor::Ultra>;

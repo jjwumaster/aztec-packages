@@ -127,5 +127,7 @@ template <typename FF> struct PowUnivariate {
 
         partial_evaluation_constant *= current_univariate_eval;
     }
+
+    // implement "fully evaluate function" possibly using unavriate eval and generalise this to not be only about beta
 };
 } // namespace barretenberg
