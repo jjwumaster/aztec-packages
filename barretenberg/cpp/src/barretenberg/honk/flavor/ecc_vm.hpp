@@ -660,6 +660,7 @@ template <typename CycleGroup_T, typename Curve_T, typename PCS_T> class ECCVMBa
      */
     using FoldedPolynomials = AllEntities<std::vector<FF>, PolynomialHandle>;
 
+    // SHOULDA
     using RawPolynomials = AllEntities<Polynomial, PolynomialHandle>;
 
     /**

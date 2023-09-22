@@ -330,7 +330,7 @@ template <typename Flavor> class ECCVMCircuitBuilder {
         const auto num_rows_log2 = static_cast<size_t>(numeric::get_msb64(num_rows));
         size_t num_rows_pow2 = 1UL << (num_rows_log2 + (1UL << num_rows_log2 == num_rows ? 0 : 1));
 
-        RawPolynomials rows;
+        RawPolynomials rows; // columns?
         for (size_t j = 0; j < NUM_POLYNOMIALS; ++j) {
             rows[j] = Polynomial(num_rows_pow2);
         }

@@ -57,6 +57,8 @@ template <typename Flavor> class ECCVMTranscriptBuilder {
             return res;
         }
     };
+
+    // SHOULDA
     static std::vector<TranscriptState> compute_transcript_state(
         const std::vector<proof_system_eccvm::VMOperation<CycleGroup>>& vm_operations,
         const uint32_t total_number_of_muls)
