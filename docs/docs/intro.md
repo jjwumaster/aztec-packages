@@ -4,13 +4,11 @@ id: "intro"
 title: What is Aztec?
 ---
 
-# Aztec: Ethereum, encrypted
+# Aztec: a no-compromises privacy-first Layer 2 on Ethereum
 
-On Ethereum today, everything is publicly visible, by everyone.
+On blockchains today, everything is publicly visible, by everyone.
 
-In the real world, people enjoy privacy.
-
-Aztec brings privacy to Ethereum.
+Aztec is a fully private Layer 2 enabling smart contract privacy.
 
 ---
 
@@ -45,26 +43,6 @@ Plus:
 [Deploy to the Aztec Sandbox today](./dev_docs/getting_started/sandbox)
 
 ---
-
-## But what _is_ Aztec?
-
-Aztec encrypts Ethereum.
-
-Aztec is the privacy layer of Ethereum.
-
-Aztec is a private smart contract platform.
-
-Aztec is a _fully programmable_ private smart contract platform.
-
-Aztec is an Ethereum Layer 2.
-
-Aztec is a zk-zk rollup.
-
-Aztec is a hybrid private/public rollup.
-
-Aztec is a network.
-
-Still confused? Explore these docs!
 
 ## Participate
 
